@@ -1,2 +1,2 @@
 # Landing-Page-1
-First Landin Page
+First Landing Page
