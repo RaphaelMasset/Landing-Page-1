@@ -5,6 +5,7 @@
 
 body{
     margin: 0;
+    flex: auto;
 }
 
 .main {
@@ -14,22 +15,29 @@ body{
 }
 .header{
     display: flex;
-    
     width: 100%;
     align-items: center;
-    margin: 0;
- 
     background-color: #1F2139;
 }
 
+.links{
+    gap: 5px;
+    list-style: none;
+    color: rgb(185, 185, 185);
+    flex: 0 1 auto;
+    margin-left: auto;
+    margin-right: 10px;
+    
+}
+
 .logo{
-    flex: 1;
+    
 }
 
 .logoimg{
     height: 70px;
     width: auto;
-
+    /*margin-right: auto;*/
 }
 
 ul{
@@ -45,7 +53,8 @@ ul{
     justify-content: center;
     background-color: #467c9f;
     gap: 50px;
-    padding: 50px;
+    padding: 50px 0px;
+    width: 100%;
 }
 .title1{
     font-size: 48px;
@@ -62,10 +71,10 @@ button{
     background: #0249ad;
     color: aliceblue;
 }
+
 img{
     width: 400px;
-    /*Photo by <a href="https://unsplash.com/@nik_anasta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikolaos Anastasopoulos</a> on <a href="https://unsplash.com/photos/mrsv-Z35oMA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  */
+    /*Photo by <a href="https://unsplash.com/@nik_anasta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikolaos Anastasopoulos</a> on <a href="https://unsplash.com/photos/mrsv-Z35oMA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
 }
 
 .Lp1{
@@ -77,18 +86,74 @@ img{
 
 .Part.p2{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: auto;
+    justify-content: center; 
+    padding: 25px;
+    gap: 12px;
+}
+.title1{
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.mediaContainer{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.pic{
+    max-width: 320px;
+    max-height: 180px;
+    overflow: hidden;
+    object-position: bottom;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+
+.videotxt{
+    text-align: center;
 }
 
 .Part.p3{
     display: flex;
-    flex: auto;
+    align-items: center;
+    background-color: rgb(131, 137, 144);
+}
+
+.containerP3{
+    max-width: 600px;
+}
+.author{
+    text-align: right;
+    justify-self: baseline;
 }
 
 .Part.p4{
     display: flex;
     flex: auto;
+    align-items: center;
+    justify-content: center;
 }
+
+.containerP4{
+    max-width: 600px;
+    display: flex;
+}
+
 
 .footer {
     display: flex;
@@ -97,11 +162,8 @@ img{
     flex:auto;
 }
 
-.links{
-    gap: 5px;
-    list-style: none;
-    color: rgb(185, 185, 185);
-}
+
+
 a{
     color: rgb(231, 230, 230);
     text-decoration: none;
