@@ -50,6 +50,7 @@ ul{
     gap: 50px;
     padding: 50px 0px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .title1{
     font-size: 48px;
@@ -77,7 +78,6 @@ ul{
 
 img{
     width: 400px;
-    /*Photo by <a href="https://unsplash.com/@nik_anasta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikolaos Anastasopoulos</a> on <a href="https://unsplash.com/photos/mrsv-Z35oMA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
 }
 
 .Lp1{
@@ -85,6 +85,7 @@ img{
     flex-direction: column;
     width: 500px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .Part.p2{
@@ -112,6 +113,7 @@ img{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 20px 0px;
 }
 
@@ -146,6 +148,7 @@ img{
 
 .containerP3{
     max-width: 600px;
+    flex-wrap: wrap;
 }
 .author{
     text-align: right;
@@ -169,6 +172,7 @@ img{
     border-radius: 8px;
     padding: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .p4 .b1 {
